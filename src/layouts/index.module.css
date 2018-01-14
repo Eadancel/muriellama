@@ -1,0 +1,65 @@
+/* Rectangle: */
+header{
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+    position: absolute ;
+    width: 100% ;
+    /* opacity: 0.41; */
+    background: rgb(201, 109, 216,0.41);
+    color: #ffffff;
+}
+h1{
+    color:#FFFFFF
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    background: rgb(201, 109, 216,0.41);
+}
+.wrpTotal{
+    margin: 0 auto;
+    background: #E6E9E6;
+    height: 100vh;
+}
+.navi{
+    list-style: none;
+    float: right;
+    margin: auto 0;
+}
+.btnSocial{
+    display: inline-block;
+    margin : 0;
+}
+.wrpSocial{
+    list-style: none;
+    margin:0;
+    margin-right:10px;
+}
+.wrpItunesSpotify{
+    display:none;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        justify-content: space-between;
+    }
+    .wrpItunesSpotify{
+        display: block;
+        list-style: none;
+        margin:0;
+        margin-left:10px;
+    }
+    .wrpTotal{
+        height: 100%;
+        min-height: 100vh;
+    }
+}
