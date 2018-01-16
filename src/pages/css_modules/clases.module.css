@@ -4,7 +4,8 @@
         " t i"
         " . i";
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
+    height: 100vh;
 }
 .textoClases{
     grid-area: t;
@@ -30,8 +31,8 @@
 }
 .imageLateral{
     margin-bottom: 0px ;
-    height: 100vh;
-    max-height: 795px;
+    /* height: 100vh; */
+    max-height: 840px;
 }
 @media screen and (max-width: 768px) {
     .wrpClases{
@@ -41,12 +42,14 @@
         " i ";
         grid-template-columns: 1fr;
         grid-template-rows: 90px 1fr;
+        
     }
-    /* .imageLateral{
-        display: none;
-    } */
+    .imageLateral{
+       /* height : 100%; */
+    } 
     .textoClases{
         margin: 0;
     }
 
 }
+

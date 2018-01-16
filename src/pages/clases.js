@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./css_modules/clases.module.css";
-import bkg_image from "./img/bkg_actuaciones.png";
+import bkg_image from "./img/bkg_clases.png";
 
 export default () => (
     <div className={styles.wrpClases}>
