@@ -28,11 +28,15 @@
 
 .wrpImage{
     grid-area: i;
+    margin : auto 0;
+    height:100vh;
+    text-align:right;
 }
 .imageLateral{
     margin-bottom: 0px ;
     /* height: 100vh; */
-    max-height: 840px;
+    max-height: 795px;
+    height:100%;
 }
 @media screen and (max-width: 768px) {
     .wrpClases{

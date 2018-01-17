@@ -6,6 +6,7 @@
         " p p i";
     grid-template-rows: 150px 1fr 1fr;
     grid-template-columns: 1fr 1fr 2fr;
+    height:100vh;
 }
 .video1{
     grid-area: v;
@@ -39,11 +40,14 @@
 
 .wrpImage{
     grid-area: i;
+    margin : auto 0;
+    height:100vh;
+    text-align:right;
 }
 .imageLateral{
     margin-bottom: 0px ;
-    height: 100vh;
     max-height: 795px;
+    height: 100%;
 }
 @media screen and (max-width: 768px) {
     .wrpActuaciones{
