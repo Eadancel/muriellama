@@ -11,6 +11,7 @@ header{
     color: #ffffff;
 }
 h1{
+    
     color:#FFFFFF
 }
 a{
@@ -30,10 +31,26 @@ footer{
     background: #E6E9E6;
     height: 100vh;
 }
+.wrpNavi{
+    /* position: absolute; */
+    float: right;
+    /* right: 0; */
+    /* background: rgb(201, 109, 216,0.41); */
+    /* padding:10px; */
+}
+.wrpNaviSmall{
+    display:none;
+}
 .navi{
     list-style: none;
     float: right;
     margin: auto 0;
+    position: fixed ;
+    right:0px;
+}
+.naviSmall{
+    font-size:14px;
+    /* width:160px; */
 }
 .btnSocial{
     display: inline-block;
@@ -48,9 +65,18 @@ footer{
     display:none;
 }
 
+
+
+
 @media screen and (max-width: 768px) {
     footer{
         justify-content: space-between;
+    }
+    .wrpNavi{
+        display:none;
+    }
+    .wrpNaviSmall{
+        display:block;
     }
     .wrpItunesSpotify{
         display: block;
@@ -61,5 +87,8 @@ footer{
     .wrpTotal{
         height: 100%;
         min-height: 100vh;
+    }
+    h1{
+        font-size:26px;
     }
 }

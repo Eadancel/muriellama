@@ -49,11 +49,14 @@
         
     }
     .imageLateral{
-       /* height : 100%; */
+        height : auto; 
     } 
     .textoClases{
         margin: 0;
     }
 
+    .wrpImage{
+        height: auto;
+    }
 }
 
