@@ -15,7 +15,7 @@ imagen_lateral {
 titulo{
     margin:auto;
     margin-bottom: 0px;
-    color: rgb(201, 109, 216);
+    color: rgb(170, 109, 163);
 }
 iconos{
     margin:auto;
@@ -39,7 +39,7 @@ iconos{
     titulo{
         color: rgb(255, 255, 255);
         margin-bottom: 53px;
-        background: rgb(201, 109, 216,0.41);
+        background: rgb(170, 109, 163,0.41);
         width: 100%;
         text-align :center;
     }

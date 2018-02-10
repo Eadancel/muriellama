@@ -16,11 +16,6 @@ export default () => (
             <p className={styles.titleVideo}>Raul Gil - Brasil</p>
             <iframe width="336" height="240" src="https://www.youtube.com/embed/VZC7Dj4tT6A?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div className={styles.proximasActuaciones}>
-            <h3>Próximas Actuaciones</h3>
-            <p>Casino de Vi&ntilde;a del Mar</p>
-            <span>18 de Agosto - 2018</span>
-
-        </div>
+        
     </div>
 );
