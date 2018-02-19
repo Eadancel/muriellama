@@ -21,7 +21,7 @@ var styles_menu = {
       background: '#bdc3c7'
     },
     bmMenu: {
-      background: '#373a47',
+      background: '#aa6da3',
       // padding: '2.5em 1.5em 0',
       // fontSize: '1.15em'
     },
@@ -75,7 +75,13 @@ class Navigation extends React.Component {
                     isOpen={this.state.menuOpen}
                     onStateChange={(state) => this.handleStateChange(state)}
                 >
-                        <ul style={{marginBottom:"0px", marginLeft:"0px"}} >  
+                        <ul style={{marginBottom:"0px", marginLeft:"0px"}} > 
+                            <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
+                                <a onClick={() => {
+                                            navigateTo("/");
+                                            this.closeMenu();
+                                            }}>INICIO</a>
+                            </li> 
                             <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
                                 <a onClick={() => {
                                             navigateTo("/actuaciones/");
@@ -94,6 +100,12 @@ class Navigation extends React.Component {
                                             this.closeMenu();
                                             }}>DISCOGRAFIA</a>
                             </li>
+                            <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
+                            <a onClick={() => {
+                                        navigateTo("/galleria/");
+                                        this.closeMenu();
+                                        }}>GALERIA</a>
+                        </li>
                             <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
                                 <a onClick={() => {
                                             navigateTo("/contacto/");

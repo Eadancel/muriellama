@@ -1,0 +1,32 @@
+.wrpGallery{
+    display:grid;
+    grid-template-areas: 
+    " . . "        
+    " p i "
+    ;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 90px auto;
+    height: 100vh;
+}
+.secGallery{
+    grid-area: p;
+}
+.imGallery{
+    grid-area: i;
+}
+
+@media screen and (max-width: 768px) {
+    .wrpGallery{
+        grid-template-areas: 
+        " .  "        
+        " p  "
+        ;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px auto;
+        height: auto;
+    }
+    .imGallery{
+        display:none;
+    }
+}
+

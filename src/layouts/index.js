@@ -37,6 +37,7 @@ export default ({ children }) =>
               <ListLink to="/actuaciones/">ACTUACIONES</ListLink>
               <ListLink to="/clases/">CLASES</ListLink>
               <ListLink to="/discografia/">DISCOGRAFIA</ListLink>
+              <ListLink to="/galleria/">GALERIA</ListLink>
               <ListLink to="/contacto/">CONTACTO</ListLink>
             </ul>
         </div>
@@ -48,14 +49,14 @@ export default ({ children }) =>
     {children()}
     <footer>
         <ul className={styles.wrpItunesSpotify}>
-            <li className={styles.btnSocial}><a href="#"><img src ={itunes} alt="Facebook" /></a></li>
-            <li className={styles.btnSocial}><a href="#"><img src ={spotify} alt="Twitter" /></a></li>
+            <li className={styles.btnSocial}><a href="https://itunes.apple.com/us/artist/muriel-lama/1294925042"><img src ={itunes} alt="Itunes" /></a></li>
+            <li className={styles.btnSocial}><a href="https://open.spotify.com/artist/3E5zYk1G3gZyQ19lMDKrzq"><img src ={spotify} alt="Spotify" /></a></li>
         </ul>
         <ul className={styles.wrpSocial}>
-            <li className={styles.btnSocial}><a href="#"><img src ={facebook} alt="Facebook" /></a></li>
-            <li className={styles.btnSocial}><a href="#"><img src ={twitter} alt="Twitter" /></a></li>
-            <li className={styles.btnSocial}><a href="#"><img src ={instagram} alt="Instagram" /></a></li>
-            <li className={styles.btnSocial}><a href="#"><img src ={youtube} alt="Youtube" /></a></li>
+            <li className={styles.btnSocial}><a href="https://www.facebook.com/Muriel-Lama-213429635346068/"><img src ={facebook} alt="Facebook" /></a></li>
+            <li className={styles.btnSocial}><a href="https://twitter.com/MurielLama"><img src ={twitter} alt="Twitter" /></a></li>
+            <li className={styles.btnSocial}><a href="https://www.instagram.com/muriellama"><img src ={instagram} alt="Instagram" /></a></li>
+            <li className={styles.btnSocial}><a href="https://www.youtube.com/channel/UCeRbRHpfOj_xg3pCfLk3EsA"><img src ={youtube} alt="Youtube" /></a></li>
         </ul>
     </footer>
   </div>

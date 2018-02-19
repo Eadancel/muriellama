@@ -1,28 +1,39 @@
 .wrpClases{
     display:grid;
     grid-template-areas: 
-        " t i"
-        " . i";
-    grid-template-rows: 1fr 1fr;
+        " p i"
+        " t i";
+    grid-template-rows: 1fr 1.25fr;
     grid-template-columns: 1fr 1.5fr;
     height: 100vh;
+}
+.textoPrecio{
+    grid-area: p;
+    text-align: center;
+    color:#AA6DA3;
+    margin: auto;
 }
 .textoClases{
     grid-area: t;
     text-align: center;
     color:#AA6DA3;
-    margin: auto;
+    margin: 0;
 }
-.textoClases > h3{
+.textoPrecio > h3{
     margin-bottom: 0px;
     
 }
 .textoClases > p{
+    margin: 10px;
+    font-size: 12px;
+
+}
+.textoPrecio > p{
     margin-bottom: 0px;
     font-size: 18px;
 
 }
-.textoClases > span{
+.textoPrecio > span{
     margin-bottom: 0px;
 }
 
@@ -42,16 +53,19 @@
     .wrpClases{
         grid-template-areas: 
         " . "        
+        " p "
         " t "
-        " i ";
+        " i "
+        ;
         grid-template-columns: 1fr;
-        grid-template-rows: 90px 1fr;
+        grid-template-rows: 90px auto 1fr 1fr;
+        height: auto;
         
     }
     .imageLateral{
         height : auto; 
     } 
-    .textoClases{
+    .textoPrecio{
         margin: 0;
     }
 

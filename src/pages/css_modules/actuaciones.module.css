@@ -6,6 +6,7 @@
         " p p i";
     grid-template-rows: 150px 1fr 1fr;
     grid-template-columns: 1fr 1fr 2fr;
+    grid-gap:10px;
     height:100vh;
 }
 .video1{

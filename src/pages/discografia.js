@@ -14,13 +14,13 @@ const Disco = props =>
   <div className={styles.title}>
     <h3>{props.title}</h3>
     <div className={styles.iconoswrp_small}>
-        <img className={styles.iconos} src={spotify_alone}/>
-        <img className={styles.iconos} src={itunes_alone}/>
+        <a href={props.spotify_link}><img className={styles.iconos} src={spotify_alone}/></a>
+        <a href={props.itunes_link}><img className={styles.iconos} src={itunes_alone}/></a>
     </div>
   </div>
   <div className={styles.iconos_wrp}>
-        <img className={styles.iconos} src={spotify}/>
-        <img className={styles.iconos} src={itunes}/>
+        <a href={props.spotify_link}><img className={styles.iconos} src={spotify}/></a>
+        <a href={props.itunes_link}><img className={styles.iconos} src={itunes}/></a>
   </div>
   
 </div>
@@ -32,14 +32,14 @@ export default () => (
             <Disco 
                 cover={coverRespuesta}
                 title="Respuesta"
-                spotify_link="./"
-                itunes_link="./"    
+                spotify_link="https://open.spotify.com/album/3HULmp7M7h1j8DZrgawVJl"
+                itunes_link="https://itunes.apple.com/us/album/respuesta/1325414591"    
             />
             <Disco 
             cover={coverVidaNova}
             title="Vida Nova"
-            spotify_link="./"
-            itunes_link="./"    
+            spotify_link="https://open.spotify.com/album/5tzqjYvRYNukfxfDwVH8Kn"
+            itunes_link="https://itunes.apple.com/us/album/vida-nova/1294925041"    
             />
         </div>
         <div className={styles.wrpImage}>

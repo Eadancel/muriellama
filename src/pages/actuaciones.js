@@ -10,11 +10,11 @@ export default () => (
         </div>
         <div className={styles.video1}>
             <p className={styles.titleVideo}>Festival de Vi&ntilde;a del Mar - 2007</p>
-            <iframe width="336" height="240" src="https://www.youtube.com/embed/VZC7Dj4tT6A?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="336" height="240" src="https://www.youtube.com/embed/LV_ufKLjQGI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div className={styles.video2}>
             <p className={styles.titleVideo}>Raul Gil - Brasil</p>
-            <iframe width="336" height="240" src="https://www.youtube.com/embed/VZC7Dj4tT6A?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="336" height="240" src="https://www.youtube.com/embed/t7ddBJJwqGc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         
     </div>

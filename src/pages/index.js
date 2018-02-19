@@ -11,8 +11,8 @@ export default () => (
         </imagen_lateral>
         <titulo><h2>Cantante y Compositora</h2></titulo>
         <iconos>
-            <img style={{marginRight:"10px"}}src={spotify}/>
-            <img src={itunes}/>
+            <a href="https://open.spotify.com/artist/3E5zYk1G3gZyQ19lMDKrzq"><img style={{marginRight:"10px"}}src={spotify}/></a>
+            <a href="https://itunes.apple.com/us/artist/muriel-lama/1294925042"><img src={itunes}/></a>
         </iconos>
     </inicio>
 );

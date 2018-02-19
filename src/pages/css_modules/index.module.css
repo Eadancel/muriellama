@@ -28,7 +28,9 @@ iconos{
 @media screen and (max-width: 768px) {
     .inicio{
         background-image: url("/static/bkg_inicio.995e59c9.png");
-        background-size: cover;
+        background-size: auto 90%;
+        background-position-x : 100px;
+        background-repeat: no-repeat;
         /* height: 100%; */
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
