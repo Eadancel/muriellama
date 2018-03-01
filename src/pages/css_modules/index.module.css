@@ -17,6 +17,12 @@ titulo{
     margin-bottom: 0px;
     color: rgb(170, 109, 163);
 }
+titulo> p{
+    font-size: 14px;
+    font-style: italic;
+    margin: 40px;
+    line-height: 2em;
+}
 iconos{
     margin:auto;
 }

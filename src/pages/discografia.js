@@ -13,6 +13,7 @@ const Disco = props =>
   <img src={props.cover} className={styles.cover} alt="" />
   <div className={styles.title}>
     <h3>{props.title}</h3>
+    <p>{props.description}</p>
     <div className={styles.iconoswrp_small}>
         <a href={props.spotify_link}><img className={styles.iconos} src={spotify_alone}/></a>
         <a href={props.itunes_link}><img className={styles.iconos} src={itunes_alone}/></a>
@@ -22,25 +23,31 @@ const Disco = props =>
         <a href={props.spotify_link}><img className={styles.iconos} src={spotify}/></a>
         <a href={props.itunes_link}><img className={styles.iconos} src={itunes}/></a>
   </div>
-  
+
 </div>
 
 export default () => (
     <div className={styles.wrapper}>
 
         <div className={styles.discografia}>
-            <Disco 
+            <p>
+                Canciones in&eacute;ditas compuestas por Muriel Lama
+            </p>
+            <Disco
+                cover={coverVidaNova}
+                title="Vida Nova"
+                description="Bossa Nova y m&uacute;sica brasileira"
+                spotify_link="https://open.spotify.com/album/5tzqjYvRYNukfxfDwVH8Kn"
+                itunes_link="https://itunes.apple.com/us/album/vida-nova/1294925041"
+            />
+            <Disco
                 cover={coverRespuesta}
                 title="Respuesta"
+                description="Pop&amp;Rock"
                 spotify_link="https://open.spotify.com/album/3HULmp7M7h1j8DZrgawVJl"
-                itunes_link="https://itunes.apple.com/us/album/respuesta/1325414591"    
+                itunes_link="https://itunes.apple.com/us/album/respuesta/1325414591"
             />
-            <Disco 
-            cover={coverVidaNova}
-            title="Vida Nova"
-            spotify_link="https://open.spotify.com/album/5tzqjYvRYNukfxfDwVH8Kn"
-            itunes_link="https://itunes.apple.com/us/album/vida-nova/1294925041"    
-            />
+
         </div>
         <div className={styles.wrpImage}>
             <img className={styles.imageLateral} src={bkg_image} alt="image" />

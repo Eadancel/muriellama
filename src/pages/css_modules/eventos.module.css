@@ -1,0 +1,95 @@
+.wrpActuaciones{
+    display:grid;
+    grid-template-areas:
+        " t t i"
+        " v1 v2 i"
+        " v3 v4 i";
+    grid-template-rows: 150px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap:10px;
+    height:100vh;
+}
+.title{
+    grid-area: t;
+    margin: auto;
+    margin-bottom: 0px;
+    color:#AA6DA3;
+}
+.title > p{
+    font-size: 18px;
+    font-style: italic;
+    margin: auto;
+    margin-left:10px;
+}
+.video1{
+    grid-area: v1;
+}
+
+.video2{
+    grid-area: v2;
+}
+.video3{
+    grid-area: v3;
+}
+
+.video4{
+    grid-area: v4;
+}
+
+/* Spotify: */
+/* background: #AA6DA3; */
+.titleVideo{
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-align: center;
+    color:#AA6DA3;
+}
+.proximasActuaciones{
+    grid-area: p;
+    text-align: center;
+    color:#AA6DA3;
+}
+.proximasActuaciones > h3{
+    margin-bottom: 0px;
+
+}
+.proximasActuaciones > p{
+    margin-bottom: 0px;
+
+}
+.proximasActuaciones > span{
+    margin-bottom: 0px;
+}
+
+.wrpImage{
+    grid-area: i;
+    margin : auto 0;
+    height:100vh;
+    text-align:right;
+}
+.imageLateral{
+    margin-bottom: 0px ;
+    max-height: 795px;
+    height: 100%;
+}
+@media screen and (max-width: 768px) {
+    .wrpActuaciones{
+        grid-template-areas:
+        " . "
+        " v1 "
+        " v2 "
+        " v3 "
+        " v4 ";
+        grid-template-columns: 1fr;
+        grid-template-rows: 90px 1fr 1fr;
+    }
+    .imageLateral{
+        display: none;
+    }
+    .proximasActuaciones{
+        margin-bottom: 53px;
+    }
+    .titleVideo{
+        font-size:14px;
+    }
+}

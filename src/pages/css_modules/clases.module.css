@@ -1,9 +1,9 @@
 .wrpClases{
     display:grid;
-    grid-template-areas: 
+    grid-template-areas:
         " p i"
         " t i";
-    grid-template-rows: 1fr 1.25fr;
+    grid-template-rows: 1fr 1.50fr;
     grid-template-columns: 1fr 1.5fr;
     height: 100vh;
 }
@@ -12,20 +12,24 @@
     text-align: center;
     color:#AA6DA3;
     margin: auto;
+    margin-bottom: 30px;
 }
 .textoClases{
     grid-area: t;
-    text-align: center;
+    /* font-size: 16px; */
+    /* text-align: center; */
+    font-style: italic;
     color:#AA6DA3;
     margin: 0;
+    margin-left:20px;
 }
 .textoPrecio > h3{
     margin-bottom: 0px;
-    
+
 }
 .textoClases > p{
     margin: 10px;
-    font-size: 12px;
+    font-size: 14px;
 
 }
 .textoPrecio > p{
@@ -51,8 +55,8 @@
 }
 @media screen and (max-width: 768px) {
     .wrpClases{
-        grid-template-areas: 
-        " . "        
+        grid-template-areas:
+        " . "
         " p "
         " t "
         " i "
@@ -60,11 +64,11 @@
         grid-template-columns: 1fr;
         grid-template-rows: 90px auto 1fr 1fr;
         height: auto;
-        
+
     }
     .imageLateral{
-        height : auto; 
-    } 
+        height : auto;
+    }
     .textoPrecio{
         margin: 0;
     }

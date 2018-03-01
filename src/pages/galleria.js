@@ -17,6 +17,10 @@ import hori5_th from "./img/gallery/thumbnail/hori_5.jpg";
 import hori6 from "./img/gallery/full/hori_6.jpg";
 import hori6_th from "./img/gallery/thumbnail/hori_6.jpg";
 
+import hori7 from "./img/gallery/full/hori_7.jpg";
+import hori7_th from "./img/gallery/thumbnail/hori_7.jpg";
+
+
 import verti1 from "./img/gallery/full/vert_1.jpg";
 import verti1_th from "./img/gallery/thumbnail/vert_1.jpg";
 
@@ -26,18 +30,31 @@ import verti2_th from "./img/gallery/thumbnail/vert_2.jpg";
 import verti3 from "./img/gallery/full/vert_3.jpg";
 import verti3_th from "./img/gallery/thumbnail/vert_3.jpg";
 
+import verti4 from "./img/gallery/full/vert_4.jpg";
+import verti4_th from "./img/gallery/thumbnail/vert_4.jpg";
+import verti5 from "./img/gallery/full/vert_5.jpg";
+import verti5_th from "./img/gallery/thumbnail/vert_5.jpg";
+import verti6 from "./img/gallery/full/vert_6.jpg";
+import verti6_th from "./img/gallery/thumbnail/vert_6.jpg";
+import verti7 from "./img/gallery/full/vert_7.jpg";
+import verti7_th from "./img/gallery/thumbnail/vert_7.jpg";
+import verti8 from "./img/gallery/full/vert_8.jpg";
+import verti8_th from "./img/gallery/thumbnail/vert_8.jpg";
+
+
+
 const IMAGES =
 [{
         src: hori1,
         thumbnail: hori1_th,
         thumbnailWidth: 200,
-        thumbnailHeight: 134,        
+        thumbnailHeight: 134,
 },
 {
         src: hori2,
         thumbnail: hori2_th,
         thumbnailWidth: 200,
-        thumbnailHeight: 134,        
+        thumbnailHeight: 134,
 },
 {
     src: verti2,
@@ -73,18 +90,51 @@ const IMAGES =
         src: hori6,
         thumbnail: hori6_th,
         thumbnailWidth: 200,
-        thumbnailHeight: 150    
-},{
+        thumbnailHeight: 150
+},
+{
+    src: hori7,
+    thumbnail: hori7_th,
+    thumbnailWidth: 200,
+    thumbnailHeight: 150
+},
+{
     src: verti3,
     thumbnail: verti3_th,
     thumbnailWidth: 300,
     thumbnailHeight: 400
-}]
+},
+{
+    src: verti4,
+    thumbnail: verti4_th,
+    thumbnailWidth: 300,
+    thumbnailHeight: 400
+},
+{
+    src: verti5,
+    thumbnail: verti5_th,
+    thumbnailWidth: 300,
+    thumbnailHeight: 400
+},
+{
+    src: verti6,
+    thumbnail: verti6_th,
+    thumbnailWidth: 300,
+    thumbnailHeight: 400
+},
+{
+    src: verti7,
+    thumbnail: verti7_th,
+    thumbnailWidth: 300,
+    thumbnailHeight: 400
+},
+
+]
 
 export default () => (
     <div className={styles.wrpGallery}>
         <div className={styles.imGallery}>
-        
+
          <img className={styles.imageLateral} src={bkg_image} alt="image" />
          </div>
         <div className={styles.secGallery}>

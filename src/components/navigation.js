@@ -45,20 +45,20 @@ class Navigation extends React.Component {
         menuOpen: false
       }
     };
-  
-    
+
+
 
     // This keeps your state in sync with the opening/closing of the menu
     // via the default means, e.g. clicking the X, pressing the ESC key etc.
     handleStateChange (state) {
-      this.setState({menuOpen: state.isOpen})  
+      this.setState({menuOpen: state.isOpen})
     }
-    
+
     // This can be used to close the menu, e.g. when a user clicks a menu item
     closeMenu () {
       this.setState({menuOpen: false})
     }
-  
+
     // This can be used to toggle the menu, e.g. when using a custom icon
     // Tip: You probably want to hide either/both default icons if using a custom icon
     // See https://github.com/negomi/react-burger-menu#custom-icons
@@ -68,37 +68,38 @@ class Navigation extends React.Component {
 
 
     render () {
-      return (          
-            
-                <Menu right width={ 200 }  
-                    styles={styles_menu} 
+      return (
+
+                <Menu right width={ 200 }
+                    styles={styles_menu}
                     isOpen={this.state.menuOpen}
                     onStateChange={(state) => this.handleStateChange(state)}
                 >
-                        <ul style={{marginBottom:"0px", marginLeft:"0px"}} > 
+                        <ul style={{marginBottom:"0px", marginLeft:"0px"}} >
                             <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
                                 <a onClick={() => {
                                             navigateTo("/");
                                             this.closeMenu();
                                             }}>INICIO</a>
-                            </li> 
+                            </li>
                             <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
                                 <a onClick={() => {
                                             navigateTo("/actuaciones/");
                                             this.closeMenu();
                                             }}>ACTUACIONES</a>
                             </li>
-                            <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
-                                <a onClick={() => {
-                                            navigateTo("/clases/");
-                                            this.closeMenu();
-                                            }}>CLASES</a>
-                            </li>
+
                             <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
                                 <a onClick={() => {
                                             navigateTo("/discografia/");
                                             this.closeMenu();
                                             }}>DISCOGRAFIA</a>
+                            </li>
+                            <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
+                                <a onClick={() => {
+                                            navigateTo("/clases/");
+                                            this.closeMenu();
+                                            }}>CLASES</a>
                             </li>
                             <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
                             <a onClick={() => {
@@ -112,10 +113,10 @@ class Navigation extends React.Component {
                                             this.closeMenu();
                                             }}>CONTACTO</a>
                             </li>
-                        </ul>   
+                        </ul>
                 </Menu>
-            
-            
+
+
             // <a onClick={() => this.closeMenu()}>About</a>
             // <a onClick={() => this.closeMenu()}>Contact</a>
             // <a onClick={() => this.closeMenu()}>Settings</a>
