@@ -9,14 +9,14 @@ export default () => (
             <a href="mailto:muriellama@muriel.cl">muriellama@muriel.cl</a>
             <p>whatsapp:+569 9562 6431</p>
             <br/>
-            <h3>Otras p&aacute;ginas de Muriel Lama</h3>
+            <h2>Otras p&aacute;ginas de Muriel Lama</h2>
             <a href="http://www.terapiasdebienestar.cl">www.terapiasdebienestar.cl</a><br/>
-            <a href="http://www.murielflowers.com">wwww.murielflowers.com</a>
+            <a href="http://www.murielflowers.com">www.murielflowers.com</a>
             <br/>
             <br/>
 
-            <h3>Dise&ntilde;o Web</h3>
-            <a href="mailto:lrosas@gmail.com">Leopoldo Rosas</a><br/>
+            <h2>Dise&ntilde;o Web</h2>
+            <a href="mailto:lrosas@gmail.com">Leopoldo Rosas (lrosas@gmail.com)</a><br/>
 
         </div>
 
