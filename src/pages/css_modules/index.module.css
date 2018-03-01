@@ -37,7 +37,7 @@ iconos{
         background-size: auto 90%;
         background-position-x : 100px;
         background-repeat: no-repeat;
-        height: auto;
+        /* height: auto; */
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
