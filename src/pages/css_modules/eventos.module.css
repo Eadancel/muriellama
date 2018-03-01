@@ -76,12 +76,17 @@
     .wrpActuaciones{
         grid-template-areas:
         " . "
+        " t "
         " v1 "
         " v2 "
         " v3 "
         " v4 ";
         grid-template-columns: 1fr;
-        grid-template-rows: 90px 1fr 1fr;
+        grid-template-rows: 90px repeat(4,auto);
+        height: auto;
+    }
+    .wrpImage{
+        display:none;
     }
     .imageLateral{
         display: none;

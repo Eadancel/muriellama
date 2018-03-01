@@ -88,7 +88,12 @@ class Navigation extends React.Component {
                                             this.closeMenu();
                                             }}>ACTUACIONES</a>
                             </li>
-
+                            <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
+                                <a onClick={() => {
+                                            navigateTo("/eventos/");
+                                            this.closeMenu();
+                                            }}>EVENTOS</a>
+                            </li>
                             <li style={{ display: `inline-block`, marginRight: `1rem`,marginBottom:"0px" }} >
                                 <a onClick={() => {
                                             navigateTo("/discografia/");

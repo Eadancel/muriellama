@@ -62,12 +62,13 @@
         " i "
         ;
         grid-template-columns: 1fr;
-        grid-template-rows: 90px auto 1fr 1fr;
+        grid-template-rows: 90px auto 1fr auto;
         height: auto;
 
     }
     .imageLateral{
         height : auto;
+        margin-bottom: 50px;
     }
     .textoPrecio{
         margin: 0;

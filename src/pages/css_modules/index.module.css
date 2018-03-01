@@ -37,7 +37,7 @@ iconos{
         background-size: auto 90%;
         background-position-x : 100px;
         background-repeat: no-repeat;
-        /* height: 100%; */
+        height: auto;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -45,11 +45,15 @@ iconos{
         display:none;
     }
     titulo{
+        margin-top:50px;
         color: rgb(255, 255, 255);
         margin-bottom: 53px;
         background: rgb(170, 109, 163,0.41);
         width: 100%;
         text-align :center;
+    }
+    titulo>p{
+        margin-bottom: 0px;
     }
     iconos{
         display:none;
