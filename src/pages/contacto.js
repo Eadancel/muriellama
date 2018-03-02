@@ -5,11 +5,13 @@ import bkg_image from "./img/bkg_contacto.png";
 export default () => (
     <div className={styles.wrapper}>
         <div className={styles.informacion}>
-            <h3>Muriel Lama</h3>
-            <a href="mailto:muriellama@muriel.cl">muriellama@muriel.cl</a>
-            <p>whatsapp:+569 9562 6431</p>
-            <br/>
-            <h2>Otras p&aacute;ginas de Muriel Lama</h2>
+            <div className={styles.additional}>
+                <h3>Contacto</h3>
+                <a href="mailto:muriellama@muriel.cl">muriellama@muriel.cl</a>
+                <p>whatsapp:+569 9562 6431</p>
+                <br/>
+            </div>
+            <h2>Otras p&aacute;ginas de Muriel Lama:</h2>
             <a href="http://www.terapiasdebienestar.cl">www.terapiasdebienestar.cl</a><br/>
             <a href="http://www.murielflowers.com">www.murielflowers.com</a>
             <br/>
