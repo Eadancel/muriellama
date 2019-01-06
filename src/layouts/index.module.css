@@ -1,6 +1,6 @@
 /* Rectangle: */
 header{
-    padding: 10px; 
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     margin: auto 0;
@@ -14,7 +14,7 @@ header{
     z-index: 1;
 }
 h1{
-    
+
     color:#FFFFFF
 }
 a{
@@ -68,18 +68,9 @@ footer{
     display:none;
 }
 
-
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1140px) {
     footer{
         justify-content: space-between;
-    }
-    .wrpNavi{
-        display:none;
-    }
-    .wrpNaviSmall{
-        display:block;
     }
     .wrpItunesSpotify{
         display: block;
@@ -87,6 +78,18 @@ footer{
         margin:0;
         margin-left:10px;
     }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .wrpNavi{
+        display:none;
+    }
+    .wrpNaviSmall{
+        display:block;
+    }
+
     .wrpTotal{
         height: 100%;
         min-height: 100vh;

@@ -53,6 +53,16 @@
     max-height: 795px;
     height:100%;
 }
+@media screen and (max-width: 1140px) {
+    .wrpClases{
+        grid-template-columns: 1fr 1fr;
+    }
+    .textoClases > p{
+        margin: 10px;
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+}
 @media screen and (max-width: 768px) {
     .wrpClases{
         grid-template-areas:

@@ -30,7 +30,7 @@ export default ({ children }) =>
 
         <div className={styles.wrpNavi}>
             <ul style={{marginBottom:"0px"}} >
-            <ListLink to="/">INICIO</ListLink>
+              <ListLink to="/">INICIO</ListLink>
               <ListLink to="/actuaciones/">ACTUACIONES</ListLink>
               <ListLink to="/eventos/">EVENTOS</ListLink>
               <ListLink to="/discografia/">DISCOGRAFIA</ListLink>

@@ -31,6 +31,28 @@ iconos{
     height: 100vh;
     max-height: 795px;
 }
+@media screen and (max-width: 1140px) {
+    iconos{
+        display:none;
+    }
+    titulo{
+        margin-bottom: auto;
+    }
+    titulo> p{
+        font-size: 10px;
+        font-style: italic;
+        margin: 20px;
+        line-height: 2em;
+    }
+    imagen_lateral {
+        /* width: 100%; */
+        grid-column:  2;
+        grid-row-start:  1;
+        /* autoprefixer: off */
+        grid-row-end: 2;
+        text-align: right;
+    }
+}
 @media screen and (max-width: 768px) {
     .inicio{
         background-image: url("/static/bkg_inicio.995e59c9.png");

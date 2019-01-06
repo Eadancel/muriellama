@@ -75,6 +75,34 @@
     max-height: 795px;
     height: 100%;
 }
+@media screen and (max-width: 1140px) {
+    .cover {
+        flex: 0 0 60px;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        justify-content: space-around;
+      }
+     .title > h3 {
+        font-size: 16px;
+    }
+    .title> p{
+        font-size: 12px;
+        font-style: italic;
+    }
+    .iconos{
+        width: 100px;
+        height: 40px;
+        margin: 0;
+    }
+    .disco {
+        padding:4px;
+    }
+    .discografia > p{
+        font-size: 14px;
+        font-style: italic;
+    }
+}
 @media screen and (max-width: 768px) {
     .wrapper{
         grid-template-columns: 1fr;
