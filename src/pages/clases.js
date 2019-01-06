@@ -9,8 +9,8 @@ export default () => (
         </div>
         <div className={styles.textoPrecio}>
             <h3>Clases de Canto</h3>
-            <p>4 clases por $52.000</p>
-            <p>1 clases por $15.000</p>
+            <p>4 clases por $60.000</p>
+            <p>1 clases por $18.000</p>
         </div>
         <div className={styles.textoClases}>
 

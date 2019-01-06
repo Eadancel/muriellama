@@ -55,22 +55,23 @@ iconos{
 }
 @media screen and (max-width: 768px) {
     .inicio{
-        background-image: url("/static/bkg_inicio.995e59c9.png");
+        /* background-image: url("/static/bkg_inicio.995e59c9.png"); */
         background-size: auto 90%;
         background-position-x : 100px;
         background-repeat: no-repeat;
-        /* height: auto; */
+        height: auto;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        /* grid-template-rows: 1fr; */
     }
-    .imageLateral {
-        display:none;
+    imagen_lateral {
+        grid-column: 1;
+        grid-row-start:  2;
     }
     titulo{
         margin-top:50px;
-        color: rgb(255, 255, 255);
+        /* color: rgb(255, 255, 255); */
         margin-bottom: 53px;
-        background: rgb(170, 109, 163,0.41);
+        /* background: rgb(170, 109, 163,0.41); */
         width: 100%;
         text-align :center;
     }

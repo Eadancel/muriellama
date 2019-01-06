@@ -13,21 +13,10 @@ export default () => (
                 Muriel Lama se especializa cantando en eventos de empresas y matrimonios Bossa Nova y otros
             </p>
         </div>
-        <div className={styles.video1}>
-            <p className={styles.titleVideo}>Garota de Ipanema</p>
-            <iframe width="336" height="240" src="https://www.youtube.com/embed/k85XGq2aM8E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+
         <div className={styles.video2}>
-            <p className={styles.titleVideo}>Aguas de Março</p>
-            <iframe width="336" height="240" src="https://www.youtube.com/embed/6VVezg_3VjE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div className={styles.video3}>
-            <p className={styles.titleVideo}>What a wonderful world</p>
-            <iframe width="336" height="240" src="https://www.youtube.com/embed/t94JT0L4OSE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div className={styles.video4}>
-            <p className={styles.titleVideo}>New York</p>
-            <iframe width="336" height="240" src="https://www.youtube.com/embed/F-_S99UnzSE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p className={styles.titleVideo}>Cantante Bossa Nova - Eventos</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/siQbG5wdkoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 );

@@ -1,9 +1,9 @@
 .wrpActuaciones{
     display:grid;
     grid-template-areas:
-        " t t i"
-        " v1 v2 i"
-        " v3 v4 i";
+        " t t i "
+        " v2 v2 i "
+        " v2 v2 i ";
     grid-template-rows: 150px 1fr 1fr;
     grid-template-columns: 1fr 1fr 2fr;
     grid-gap:10px;
@@ -27,6 +27,7 @@
 
 .video2{
     grid-area: v2;
+    padding:20px;
 }
 .video3{
     grid-area: v3;
@@ -77,12 +78,9 @@
         grid-template-areas:
         " . "
         " t "
-        " v1 "
-        " v2 "
-        " v3 "
-        " v4 ";
+        " v2 ";
         grid-template-columns: 1fr;
-        grid-template-rows: 90px repeat(4,auto);
+        grid-template-rows: 90px repeat(2,auto);
         height: auto;
     }
     .wrpImage{
