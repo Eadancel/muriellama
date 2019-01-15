@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./css_modules/eventos.module.css";
-import bkg_image from "./img/bkg_discografia.png";
+import bkg_image from "./img/bkg_eventos.png";
 import YouTube from 'react-youtube';
 
 export default () => (
@@ -16,7 +16,7 @@ export default () => (
 
         <div className={styles.video2}>
             <p className={styles.titleVideo}>Cantante Bossa Nova - Eventos</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/siQbG5wdkoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="330" height="210" src="https://www.youtube.com/embed/siQbG5wdkoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 );

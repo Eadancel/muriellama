@@ -4,7 +4,7 @@
         " p i"
         " t i";
     grid-template-rows: 1fr 1.50fr;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 1fr;
     height: 100vh;
 }
 .textoPrecio{
@@ -21,7 +21,7 @@
     font-style: italic;
     color:#AA6DA3;
     margin: 0;
-    margin-left:20px;
+    margin-left:40px;
 }
 .textoPrecio > h3{
     margin-bottom: 0px;

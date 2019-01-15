@@ -24,7 +24,7 @@ const ListLink = props =>
 export default ({ children }) =>
   <div className={styles.wrpTotal}>
       <header>
-        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`, marginLeft: `100px` }}>
           <h1 style={{ display: `inline` }}>MURIEL LAMA</h1>
         </Link>
 

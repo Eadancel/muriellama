@@ -1,15 +1,16 @@
 .wrpGallery{
     display:grid;
-    grid-template-areas: 
-    " . . "        
+    grid-template-areas:
+    " . . "
     " p i "
     ;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.75fr 1fr;
     grid-template-rows: 90px auto;
     height: 100vh;
 }
 .secGallery{
     grid-area: p;
+    margin-left: 40px;
 }
 .imGallery{
     grid-area: i;
@@ -17,8 +18,8 @@
 
 @media screen and (max-width: 768px) {
     .wrpGallery{
-        grid-template-areas: 
-        " .  "        
+        grid-template-areas:
+        " .  "
         " p  "
         ;
         grid-template-columns: 1fr;
