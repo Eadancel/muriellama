@@ -35,6 +35,11 @@ iconos{
     /* max-height: 795px; */
     margin-top: 59px;
 }
+.popupVideo{
+    width : 680px;
+    height : 400px;
+}
+
 @media screen and (max-width: 1140px) {
     iconos{
         display:none;
@@ -84,5 +89,9 @@ iconos{
     }
     iconos{
         display:none;
+    }
+    .popupVideo{
+        width : 330px;
+        height : 210px;
     }
 }

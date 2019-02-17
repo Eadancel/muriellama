@@ -20,6 +20,7 @@
     "react-burger-menu": "^2.2.3",
     "react-grid-gallery": "^0.4.8",
     "react-icons": "^2.2.7",
+    "react-responsive-modal": "^3.6.0",
     "react-youtube": "^7.5.0",
     "typography-theme-lawton": "^0.15.10",
     "typography-theme-lincoln": "^0.15.11"

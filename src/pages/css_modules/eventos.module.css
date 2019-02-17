@@ -2,8 +2,8 @@
     display:grid;
     grid-template-areas:
         " t t i "
-        " v2 v2 i "
-        " v2 v2 i ";
+        " v2 v1 i "
+        " v2 v1 i ";
     grid-template-rows: 150px 1fr 1fr;
     grid-template-columns: 1fr 1fr 2fr;
     grid-gap:10px;
@@ -24,6 +24,8 @@
 }
 .video1{
     grid-area: v1;
+    padding:20px;
+    text-align: center;
 }
 
 .video2{
@@ -80,7 +82,8 @@
         grid-template-areas:
         " . "
         " t "
-        " v2 ";
+        " v2 "
+        " v1 ";
         grid-template-columns: 1fr;
         grid-template-rows: 90px repeat(2,auto);
         height: auto;
