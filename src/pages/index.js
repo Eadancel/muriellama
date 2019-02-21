@@ -25,7 +25,7 @@ export default () => (
         <AutoModal>
             <p className={styles.titleVideo}>Bora pra lá</p>
             <p className={styles.titleVideo}>(Official Music Video)</p>
-            <iframe className={styles.popupVideo} src="https://www.youtube.com/embed/_fLISTk-FLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className={styles.popupVideo} src="https://www.youtube.com/embed/_fLISTk-FLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true" ></iframe>
         </AutoModal>
     </inicio>
 );
