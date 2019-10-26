@@ -47,7 +47,8 @@ export default () => (
                 spotify_link="https://open.spotify.com/album/3HULmp7M7h1j8DZrgawVJl"
                 itunes_link="https://itunes.apple.com/us/album/respuesta/1325414591"
             />
-
+            <p className={styles.titleVideo}>(Official Music Video)</p>
+            <iframe width="330" height="210"  src="https://www.youtube.com/embed/_fLISTk-FLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="true" ></iframe>
         </div>
         <div className={styles.wrpImage}>
             <img className={styles.imageLateral} src={bkg_image} alt="image" />
