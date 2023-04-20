@@ -13,7 +13,7 @@
     "gatsby-image": "^1.0.37",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-netlify": "^1.0.17",
-    "gatsby-plugin-sharp": "^1.6.30",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.20",
     "gatsby-transformer-sharp": "^1.6.19",
